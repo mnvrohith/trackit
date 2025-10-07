@@ -140,9 +140,9 @@ const AIInsights = () => {
       case 'success':
         return 'text-green-700 dark:text-green-300 hover:text-green-800 dark:hover:text-green-200';
       case 'tip':
-        return 'text-emerald-700 dark:text-emerald-300 hover:text-emerald-800 dark:hover:text-emerald-200';
+        return 'text-blue-700 dark:text-blue-300 hover:text-blue-800 dark:hover:text-blue-200';
       case 'info':
-        return 'text-emerald-700 dark:text-emerald-300 hover:text-emerald-800 dark:hover:text-emerald-200';
+        return 'text-pink-700 dark:text-pink-300 hover:text-pink-800 dark:hover:text-pink-200';
       default:
         return 'text-gray-700 dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-200';
     }
