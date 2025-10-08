@@ -1,5 +1,5 @@
 import Link from 'next/link';
-
+import { IndianRupee } from 'lucide-react';
 const Footer = () => {
   return (
     <footer className='relative overflow-hidden bg-gradient-to-br from-gray-50 via-white to-emerald-50 dark:from-gray-900 dark:via-gray-800 dark:to-emerald-900/20 border-t border-gray-100/50 dark:border-gray-700/50'>
@@ -12,7 +12,7 @@ const Footer = () => {
           <div className='text-center md:text-left'>
             <div className='inline-flex items-center gap-2 mb-4'>
               <div className='w-8 h-8 bg-gradient-to-br from-emerald-500 via-green-500 to-teal-500 rounded-xl flex items-center justify-center shadow-lg'>
-                <span className='text-white text-lg'>💰</span>
+                <span className='text-white text-lg'><IndianRupee className="h-5 w-5 text-white dark:text-black"/></span>
               </div>
               <h2 className='text-xl font-bold bg-gradient-to-r from-emerald-600 via-green-500 to-teal-500 bg-clip-text text-transparent'>
                 TrackIt AI

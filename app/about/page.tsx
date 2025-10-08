@@ -9,18 +9,17 @@ const AboutPage = () => {
         <div className='relative z-10 max-w-4xl mx-auto w-full'>
           <div className='inline-flex items-center gap-2 bg-emerald-50 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-300 px-3 sm:px-4 py-2 rounded-full text-xs sm:text-sm font-medium mb-4 sm:mb-6 shadow-lg'>
             <span className='w-1.5 h-1.5 sm:w-2 sm:h-2 bg-emerald-500 dark:bg-emerald-400 rounded-full animate-pulse'></span>
-            <span className='hidden sm:inline'>Powered by AI Technology</span>
+            <span className='hidden sm:inline'>About TrackIt AI</span>
             <span className='sm:hidden'>AI Technology</span>
           </div>
           <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-4 sm:mb-6 text-gray-900 dark:text-gray-100 leading-tight'>
             About{' '}
             <span className='bg-gradient-to-r from-emerald-600 via-green-500 to-teal-500 bg-clip-text text-transparent'>
-              ExpenseTracker AI
+              TrackIt AI
             </span>
           </h1>
           <p className='text-base sm:text-lg md:text-xl lg:text-2xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto leading-relaxed px-2 sm:px-0'>
-            Your intelligent companion for tracking expenses and managing your
-            finances with cutting-edge AI-powered insights.
+         A Next.js-based expense tracker that leverages OpenRouter AI to automatically categorize expenses, generate intelligent financial insights, and visualize spending through dynamic charts and histograms.
           </p>
           <div className='mt-6 sm:mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-2 sm:px-0'>
             <Link
@@ -53,35 +52,31 @@ const AboutPage = () => {
             <span className='text-emerald-600 dark:text-emerald-400'>AI</span>
           </h2>
           <p className='text-lg md:text-xl text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl mx-auto'>
-            At ExpenseTracker AI, we leverage cutting-edge artificial
-            intelligence to revolutionize how individuals achieve financial
-            wellness. Our AI analyzes your spending patterns to deliver
-            personalized recommendations and actionable insights that lead to
-            better budgeting and financial freedom.
+           At TrackIt AI, we harness artificial intelligence to make financial management effortless. Our AI tracks your expenses, analyzes spending habits, and provides personalized insights to help you budget smarter and achieve financial wellness.
           </p>
           <div className='mt-10 grid grid-cols-1 md:grid-cols-3 gap-6'>
             <div className='bg-gradient-to-br from-emerald-50 to-green-50 dark:from-emerald-900/20 dark:to-green-900/20 p-6 rounded-2xl border border-emerald-100 dark:border-emerald-800/50'>
               <div className='text-3xl font-bold text-emerald-600 dark:text-emerald-400 mb-2'>
-                10K+
+                Free
               </div>
               <div className='text-gray-600 dark:text-gray-400 font-medium'>
-                Active Users
+                Use TrackIt AI without any cost or credit card required.
               </div>
             </div>
             <div className='bg-gradient-to-br from-green-50 to-teal-50 dark:from-green-900/20 dark:to-teal-900/20 p-6 rounded-2xl border border-green-100 dark:border-green-800/50'>
               <div className='text-3xl font-bold text-green-600 dark:text-green-400 mb-2'>
-                $2M+
+                AI-Powered Support
               </div>
               <div className='text-gray-600 dark:text-gray-400 font-medium'>
-                Money Tracked
+                Get 24/7 intelligent assistance and insights.
               </div>
             </div>
             <div className='bg-gradient-to-br from-teal-50 to-emerald-50 dark:from-teal-900/20 dark:to-emerald-900/20 p-6 rounded-2xl border border-teal-100 dark:border-teal-800/50'>
               <div className='text-3xl font-bold text-teal-600 dark:text-teal-400 mb-2'>
-                99%
+                Instant Setup
               </div>
               <div className='text-gray-600 dark:text-gray-400 font-medium'>
-                Satisfaction Rate
+                Start tracking your expenses in just a few minutes.
               </div>
             </div>
           </div>
@@ -90,6 +85,7 @@ const AboutPage = () => {
 
       {/* Features Section */}
       <section className='py-20 px-8 bg-gradient-to-br from-gray-50 via-white to-emerald-50 dark:from-gray-900 dark:via-gray-800 dark:to-emerald-900/20'>
+       
         <div className='max-w-6xl mx-auto'>
           <div className='text-center mb-16'>
             <div className='inline-flex items-center gap-2 bg-emerald-50 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-300 px-3 py-1 rounded-full text-sm font-medium mb-6'>
@@ -99,7 +95,7 @@ const AboutPage = () => {
             <h2 className='text-4xl md:text-5xl font-bold mb-6 text-gray-900 dark:text-gray-100'>
               Why Choose{' '}
               <span className='text-emerald-600 dark:text-emerald-400'>
-                ExpenseTracker AI?
+                TrackIt AI?
               </span>
             </h2>
             <p className='text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto'>
@@ -163,84 +159,7 @@ const AboutPage = () => {
         </div>
       </section>
 
-      {/* Story Section */}
-      <section className='py-20 px-8 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm relative overflow-hidden'>
-        <div className='absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-emerald-500/5 to-green-500/5 rounded-full blur-2xl'></div>
-        <div className='absolute bottom-0 left-0 w-64 h-64 bg-gradient-to-br from-teal-500/5 to-emerald-500/5 rounded-full blur-2xl'></div>
 
-        <div className='max-w-4xl mx-auto relative z-10'>
-          <div className='text-center mb-12'>
-            <div className='inline-flex items-center gap-2 bg-emerald-50 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-300 px-3 py-1 rounded-full text-sm font-medium mb-6'>
-              <span className='w-1.5 h-1.5 bg-emerald-500 dark:bg-emerald-400 rounded-full'></span>
-              Our Story
-            </div>
-            <h2 className='text-4xl md:text-5xl font-bold mb-8 text-gray-900 dark:text-gray-100'>
-              Built for the{' '}
-              <span className='text-emerald-600 dark:text-emerald-400'>
-                Future
-              </span>
-            </h2>
-          </div>
-
-          <div className='grid grid-cols-1 md:grid-cols-2 gap-12 items-center'>
-            <div className='space-y-6'>
-              <p className='text-lg text-gray-600 dark:text-gray-400 leading-relaxed'>
-                ExpenseTracker AI was born from the vision of creating truly
-                intelligent financial management tools. Our team of financial
-                experts, data scientists, and technologists came together to
-                solve a critical problem: making personal finance management
-                smarter, more intuitive, and more effective.
-              </p>
-              <p className='text-lg text-gray-600 dark:text-gray-400 leading-relaxed'>
-                Since our launch, we&#39;ve helped thousands of users achieve
-                better budgeting and improve their overall financial health
-                through the power of artificial intelligence. Every feature is
-                designed with user experience and financial wellness in mind.
-              </p>
-              <div className='flex items-center gap-4 pt-4'>
-                <div className='flex -space-x-2'>
-                  <div className='w-10 h-10 bg-gradient-to-br from-emerald-500 to-green-500 rounded-full border-2 border-white dark:border-gray-800'></div>
-                  <div className='w-10 h-10 bg-gradient-to-br from-green-500 to-teal-500 rounded-full border-2 border-white dark:border-gray-800'></div>
-                  <div className='w-10 h-10 bg-gradient-to-br from-teal-500 to-emerald-500 rounded-full border-2 border-white dark:border-gray-800'></div>
-                </div>
-                <div className='text-sm text-gray-600 dark:text-gray-400'>
-                  <div className='font-semibold'>Trusted by 10,000+ users</div>
-                  <div>Join our growing community</div>
-                </div>
-              </div>
-            </div>
-
-            <div className='bg-gradient-to-br from-emerald-50 to-green-50 dark:from-emerald-900/20 dark:to-green-900/20 p-8 rounded-2xl border border-emerald-100 dark:border-emerald-800/50'>
-              <div className='space-y-6'>
-                <div className='flex items-center gap-4'>
-                  <div className='w-3 h-3 bg-emerald-500 dark:bg-emerald-400 rounded-full'></div>
-                  <div className='text-gray-900 dark:text-gray-100 font-medium'>
-                    Founded in 2024
-                  </div>
-                </div>
-                <div className='flex items-center gap-4'>
-                  <div className='w-3 h-3 bg-green-500 dark:bg-green-400 rounded-full'></div>
-                  <div className='text-gray-900 dark:text-gray-100 font-medium'>
-                    AI-First Approach
-                  </div>
-                </div>
-                <div className='flex items-center gap-4'>
-                  <div className='w-3 h-3 bg-teal-500 dark:bg-teal-400 rounded-full'></div>
-                  <div className='text-gray-900 dark:text-gray-100 font-medium'>
-                    Global Impact
-                  </div>
-                </div>
-                <div className='flex items-center gap-4'>
-                  <div className='w-3 h-3 bg-emerald-500 dark:bg-emerald-400 rounded-full'></div>
-                  <div className='text-gray-900 dark:text-gray-100 font-medium'>
-                    User-Centric Design
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Call to Action Section */}
       <section className='py-20 px-8 bg-gradient-to-br from-gray-50 via-white to-emerald-50 dark:from-gray-900 dark:via-gray-800 dark:to-emerald-900/20 relative overflow-hidden'>
@@ -261,9 +180,7 @@ const AboutPage = () => {
           </h2>
 
           <p className='text-xl md:text-2xl mb-10 text-gray-600 dark:text-gray-400 max-w-2xl mx-auto leading-relaxed'>
-            Join thousands of users who have already transformed their financial
-            habits with ExpenseTracker AI. Start your journey towards smarter
-            budgeting today.
+            Take control of your finances with TrackIt AI — smarter budgeting, AI-powered insights, and smarter spending start here.
           </p>
 
           <div className='flex flex-col sm:flex-row gap-6 justify-center items-center'>

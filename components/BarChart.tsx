@@ -201,7 +201,7 @@ const BarChart = ({ records }: { records: Record[] }) => {
       y: {
         title: {
           display: true,
-          text: 'Amount ($)',
+          text: 'Amount (₹)',
           font: {
             size: isMobile ? 12 : 16, // Smaller font on mobile
             weight: 'bold' as const,

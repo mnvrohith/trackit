@@ -1,4 +1,6 @@
 'use client';
+import { IndianRupee } from 'lucide-react';
+
 
 import { SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
 import Link from 'next/link';
@@ -29,7 +31,7 @@ export default function Navbar() {
             >
               <div className='w-7 h-7 sm:w-8 sm:h-8 md:w-10 md:h-10 bg-gradient-to-br from-emerald-500 via-green-500 to-teal-500 rounded-lg sm:rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:rotate-3'>
                 <span className='text-white text-xs sm:text-sm md:text-lg font-bold'>
-                  💰
+                  <IndianRupee className="h-5 w-5 text-white dark:text-black"/>
                 </span>
               </div>
               <span className='text-sm sm:text-base md:text-lg lg:text-xl font-bold bg-gradient-to-r from-emerald-600 via-green-500 to-teal-500 bg-clip-text text-transparent'>
