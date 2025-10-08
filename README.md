@@ -1,55 +1,129 @@
-<!-- This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ₹ TrackIt AI
 
-## Getting Started
+A AI-powered expense tracking web application built with **Next.js 15**, featuring intelligent categorization, real-time analytics, and personalized financial insights — built by **MNV ROHITH**.
 
-First, run the development server:
+![ExpenseTracker AI](https://img.shields.io/badge/Next.js-15.3.5-black?style=for-the-badge&logo=next.js)
+![React](https://img.shields.io/badge/React-19.0.0-blue?style=for-the-badge&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.17-38B2AC?style=for-the-badge&logo=tailwind-css)
+
+## ✨ Features
+
+### 🤖 AI-Powered Intelligence
+
+- **Smart Categorization**: AI automatically suggests expense categories based on descriptions  
+- **Financial Insights**: Personalized recommendations and spending pattern analysis  
+- **Interactive AI Chat**: Get detailed explanations and advice for any insight
+
+### 💼 Core Functionality
+
+- **Expense Tracking**: Add, edit, and delete expenses easily  
+- **Real-time Charts**: Beautiful visualizations using Chart.js  
+- **Statistics Dashboard**: Comprehensive spending analytics  
+- **Expense History**: Transaction history with search and filter options
+
+### 🎨 Modern UI/UX
+
+- **Light & Dark Mode**: Smooth theme switching  
+- **Fully Responsive**: Works on all devices  
+- **Beautiful Animations**: Smooth hover and click interactions  
+- **Gradient Cards**: Modern blur-glass design for dashboards
+
+### 🔐 Authentication & Security
+
+- **Clerk Authentication**: Secure and easy user login  
+- **Google/Email Login** options  
+- **User Profiles**: Personalized dashboards per user
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- **Next.js 15** – App Router + Server Actions  
+- **React 19** – Latest concurrent React  
+- **TypeScript** – Type-safe development  
+- **Tailwind CSS** – Modern, utility-first styling  
+- **Chart.js** – Interactive charts
+
+### Backend & Database
+
+- **Neon DB** – Serverless PostgreSQL  
+- **Prisma** – Type-safe ORM  
+- **Server Actions** – Fast API endpoints
+
+### AI & Authentication
+
+- **OpenRouter API** – Free OpenAI-compatible API  
+- **Clerk** – User authentication and session management  
+
+### Deployment
+
+- **Vercel** – Serverless hosting for modern web apps
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+  
+- npm / yarn / pnpm
+
+### Installation
+
+```bash
+git clone https://github.com/mnvarts/expense-tracker-ai.git
+cd expense-tracker-ai
+npm install
+```
+
+### Environment Setup
+
+Create a `.env` file in the root directory:
+
+```env
+DATABASE_URL="your-neon-db-url"
+
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY="your-clerk-publishable-key"
+CLERK_SECRET_KEY="your-clerk-secret-key"
+
+OPENROUTER_API_KEY="your-openrouter-api-key"
+
+NEXT_PUBLIC_APP_URL="http://localhost:3000"
+```
+
+### Database Setup
+
+```bash
+npx prisma generate
+npx prisma db push
+```
+
+### Run Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then visit 👉 [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📊 Database Schema
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **User** → Clerk user info  
+- **Record** → Expense transactions (amount, category, date)
 
-## Learn More
+## 🌐 Deployment (Vercel Recommended)
 
-To learn more about Next.js, take a look at the following resources:
+1. Push project to GitHub  
+2. Import to [Vercel](https://vercel.com)  
+3. Add `.env` variables in dashboard  
+4. Deploy 🚀
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📎 Useful Links
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Neon Database](https://neon.tech)  
+- [Clerk Authentication](https://clerk.com)  
+- [Next.js Docs](https://nextjs.org)  
+- [Tailwind CSS](https://tailwindcss.com)  
+- [Vercel Deployment](https://vercel.com)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details. -->
-
-# TrackIt AI
-
-**TrackIt AI** is a **Next.js-based expense tracker** that leverages **OpenRouter AI** to automatically categorize expenses, generate intelligent financial insights, and visualize spending through dynamic charts and histograms. Manage your finances smarter with AI-powered recommendations and interactive dashboards.  
-
----
-
-## Features
-
-- **AI-Powered Expense Categorization** – Automatically sorts your expenses using AI.  
-- **Financial Insights** – Get personalized tips and suggestions based on your spending patterns.  
-- **Dynamic Charts & Histograms** – Visualize daily and monthly spending trends.  
-- **Dark/Light Mode Support** – Optimized UI for both themes.  
-  
-
----
-
-
+**Built with ❤️ by [MNV ROHITH](https://github.com/mnvrohith)**  
 
