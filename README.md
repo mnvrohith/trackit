@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<!-- This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
@@ -33,4 +33,25 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details. -->
+
+# TrackIt AI
+
+**TrackIt AI** is a **Next.js-based expense tracker** that leverages **OpenRouter AI** to automatically categorize expenses, generate intelligent financial insights, and visualize spending through dynamic charts and histograms. Manage your finances smarter with AI-powered recommendations and interactive dashboards.  
+
+---
+
+## Features
+
+- **AI-Powered Expense Categorization** – Automatically sorts your expenses using AI.  
+- **Financial Insights** – Get personalized tips and suggestions based on your spending patterns.  
+- **Dynamic Charts & Histograms** – Visualize daily and monthly spending trends.  
+- **Dark/Light Mode Support** – Optimized UI for both themes.  
+- **Quick Support** – Email support available 24/7 at **support@trackit.com**.  
+
+---
+
+## Demo
+
+Add screenshots or a live demo link here if available:  
+
