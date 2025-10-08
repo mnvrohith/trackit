@@ -47,11 +47,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 - **Financial Insights** – Get personalized tips and suggestions based on your spending patterns.  
 - **Dynamic Charts & Histograms** – Visualize daily and monthly spending trends.  
 - **Dark/Light Mode Support** – Optimized UI for both themes.  
-- **Quick Support** – Email support available 24/7 at **support@trackit.com**.  
+  
 
 ---
 
-## Demo
 
-Add screenshots or a live demo link here if available:  
 
